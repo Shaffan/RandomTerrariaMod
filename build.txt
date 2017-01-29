@@ -1,0 +1,4 @@
+author = Shaffan93
+version = 0.1
+displayName = Random Custom Items
+includePDB = true
