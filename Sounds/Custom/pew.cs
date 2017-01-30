@@ -12,7 +12,9 @@ namespace RandomCustomItems.Sounds.Custom
             if (soundInstance.State == SoundState.Playing)
                 return null;
             soundInstance.Volume = volume * .5f;
-            return soundInstance;
+            soundInstance.Pan = pan;
+            soundInstance.Pitch = (float)Main.rand.Next(-5, 6) * .05f;
+            return soundInstance; ;
         }
     }
 }

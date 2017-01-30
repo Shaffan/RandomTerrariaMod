@@ -36,7 +36,7 @@ namespace RandomCustomItems.Projectiles.Minions
         {
             if (projectile.localAI[0] == 0f)
             {
-                Main.PlaySound(SoundLoader.customSoundType, (int)projectile.position.X, (int)projectile.position.Y, mod.GetSoundSlot(SoundType.Custom, "Sounds/Item/pew"));
+                Main.PlaySound(SoundLoader.customSoundType, (int)projectile.position.X, (int)projectile.position.Y, mod.GetSoundSlot(SoundType.Custom, "Sounds/Custom/pew"));
                 projectile.localAI[0] = 1f;
             }
         }

@@ -49,30 +49,6 @@ namespace RandomCustomItems.NPCs
             }
         }
 
-        public override bool CanTownNPCSpawn(int numTownNPCs, int money)
-        {
-            /*
-            // this iterates through every player
-            for (int k = 0; k < 255; k++)
-            {
-                Player player = Main.player[k];
-                if (player.active)
-                {
-                    
-                    // iterates through all items in player inventory
-                    for (int j = 0; j < player.inventory.Length; j++)
-                    {
-                        if (player.inventory[j].type == mod.ItemType("ExampleItem") || player.inventory[j].type == mod.ItemType("ExampleBlock"))
-                        {
-                            return true;
-                        }
-                    }
-                    
-                }
-            }*/
-            return true;
-        }
-
         public override bool CheckConditions(int left, int right, int top, int bottom)
         {
             return true;
@@ -100,9 +76,9 @@ namespace RandomCustomItems.NPCs
                 case 0:
                     return "Please, examine my wares.";
                 case 1:
-                    return "Snoop around.";
+                    return "Snoop around!";
                 default:
-                    return "I have the perfect cure for your sunny disposition my fine friend.";
+                    return "I have the perfect cure for your sunny disposition my fine friend!";
             }
         }
 

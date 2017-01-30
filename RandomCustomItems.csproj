@@ -37,12 +37,14 @@
     <Compile Include="Items\Weapons\DickStaff.cs" />
     <Compile Include="MyPlayer.cs" />
     <Compile Include="NPCs\MyGlobalNPC.cs" />
+    <Compile Include="NPCs\TownNPC.cs" />
     <Compile Include="Projectiles\Minions\CuckMinion.cs" />
     <Compile Include="Projectiles\Minions\HoverShooter.cs" />
     <Compile Include="Projectiles\Minions\Minion.cs" />
     <Compile Include="Projectiles\Minions\CuckMinionP.cs" />
     <Compile Include="RandomCustomItems.cs" />
-    <Compile Include="Sounds\Item\pew.cs" />
+    <Compile Include="RandomCustomWorld.cs" />
+    <Compile Include="Sounds\Custom\pew.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -71,7 +73,6 @@
     <Content Include="Items\Weapons\DickStaff.png" />
     <Content Include="Projectiles\Minions\CuckMinion.png" />
     <Content Include="Projectiles\Minions\CuckMinionP.png" />
-    <Content Include="Sounds\Item\pew.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
