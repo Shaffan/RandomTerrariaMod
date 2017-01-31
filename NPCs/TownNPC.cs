@@ -40,6 +40,11 @@ namespace RandomCustomItems.NPCs
             animationType = NPCID.Guide;
         }
 
+        public override void FindFrame(int frameHeight)
+        {
+
+        }
+
         public override void HitEffect(int hitDirection, double damage)
         {
             int num = npc.life > 0 ? 1 : 5;
